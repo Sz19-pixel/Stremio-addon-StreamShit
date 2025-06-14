@@ -1,7 +1,7 @@
 const { addonBuilder } = require('stremio-addon-sdk');
 const ScraperManager = require('./ScraperManager');
 const TorrentManager = require('./TorrentManager');
-const CacheManager = require('./utils/CacheManager');
+const CacheManager = require('./CacheManager');
 
 // Addon manifest
 const manifest = {
